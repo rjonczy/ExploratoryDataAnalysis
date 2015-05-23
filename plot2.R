@@ -17,7 +17,7 @@ barplot(
     col = c('red', 'green', 'blue', 'yellow'),
     xlab = "Year",
     ylab = "Total Emmission in [Tones]",
-    main = "PM2.5 emission between 1999-2008 (Baltimore)"
+    main = expression("PM"[2.5]*" emission between 1999-2008 (Baltimore)")
 )
 
 dev.off()
