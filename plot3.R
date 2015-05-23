@@ -14,7 +14,7 @@ qplot(year, Emissions, data = NEI.baltimore.type,
       group = type, color = type,
       geom = c("point", "line"), 
       xlab = "Year", 
-      ylab = "Total Emmission in [Tons]",
+      ylab = "Total Emmission [Tons]",
       main = expression("PM"[2.5]*" emission between 1999-2008 (Baltimore) by Pollutant Type")
 )
 
