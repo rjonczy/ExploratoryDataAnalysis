@@ -20,6 +20,7 @@ NEI.coal.combustion.totals <- aggregate(Emissions ~ year, NEI.coal.combustion, s
 g <- ggplot(aes(factor(year), Emissions / 1000000), data = NEI.coal.combustion.totals)
 g + geom_bar(stat = "identity", fill="red", colour="black", width=0.75)+
     theme_classic()+
+    guides(fill = FALSE)+
     labs(x = "Year", y = expression("Total PM"[2.5]*" Emission (mln of Tons)")) + 
     labs(title = expression("PM"[2.5]*" emission from combusion and coal sources between 1999-2008 (all US)"))
 

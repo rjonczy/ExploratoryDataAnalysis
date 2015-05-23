@@ -9,7 +9,7 @@ NEI.baltimore <- NEI[NEI$fips == '24510',]
 
 NEI.baltimore.type <- ddply(NEI.baltimore, . (type, year), summarize, Emissions = sum(Emissions) )
 
-# use barplot to plot total emission per year for all sources
+# plot
 qplot(year, Emissions, data = NEI.baltimore.type,
       group = type, color = type,
       geom = c("point", "line"), 
