@@ -11,3 +11,9 @@
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
+.Rproj.user
+*.Rproj
+
+# exclude zipped data file
+*.zip
+*.rds
