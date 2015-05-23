@@ -11,7 +11,7 @@ png(filename = "plot1.png")
 barplot(
     totals$Emissions / 1000000,
     names.arg = totals$year,
-    col = heat.colors(4),
+    col = c('red', 'green', 'blue', 'yellow'),
     xlab = "Year",
     ylab = "Total Emmission",
     main = "PM2.5 emission between 1999-2008"
