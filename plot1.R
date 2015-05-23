@@ -13,7 +13,7 @@ barplot(
     names.arg = totals$year,
     col = c('red', 'green', 'blue', 'yellow'),
     xlab = "Year",
-    ylab = "Total Emmission in [mln of Tones]",
+    ylab = "Total Emmission in [mln of Tons]",
     main = expression("PM"[2.5]*" emission between 1999-2008 (all US)")
 )
 
